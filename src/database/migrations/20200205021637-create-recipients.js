@@ -17,8 +17,8 @@ module.exports = {
         unique: true,
       },
       address_complement: {
-        type: Sequelize.STRING,
-        allowNull: false,
+        type: Sequelize.TEXT,
+        allowNull: true,
       },
       state: {
         type: Sequelize.STRING,
